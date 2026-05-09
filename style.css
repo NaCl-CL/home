@@ -102,13 +102,10 @@ footer{
         margin: 5%;
     }
     .karamu h3{
-        font-size: 20px;
+        font-size: 30px;
     }
-    .karamu p{
-        font-size: 15px;
-    }
-    button{
-        font-size: 0.8em;
+    p{
+        font-size: 25px;
     }
     .karamu{
         display: block;
@@ -118,4 +115,9 @@ footer{
         margin: auto;
         
     }
+    button{
+        padding:15px 2px;
+        font-size: 1.8em;
+    }
+
 }
