@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
 body{
     margin-left: 10%;
     margin-right: 10%;
@@ -51,20 +52,20 @@ img{
 button{
     display: block;
     text-align: center;
-    background-color: #4c4c4c;
+    background-color: white;
     padding:3px 2px;
     margin: 20px auto;
     width: 50%;
     border: 2.3px solid #4c4c4c;
-    color: white;
+    color: #4c4c4c;;
     cursor:pointer;
     transition:0.2s;
     border-radius: 10px;
     font-size: 1.5em;
 }
 .btn:hover{
-    background:white;
-    color: #4c4c4c;
+    background:#4c4c4c;;
+    color:white
 }
 /*TOP*/
 .top-con{
@@ -85,4 +86,18 @@ button{
     transform: translate(-50%,-50%);
     font-size: 4em;
     color: #4c4c4c;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .top-con h1{
+        font-size: 1.8em;
+    }
+    button{
+        width: 80%;
+        font-size: 2em;
+        padding:10px 2px;
+    }
 }
