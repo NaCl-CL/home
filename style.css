@@ -1,0 +1,107 @@
+body{
+    color: rgb(85, 60, 26);
+}
+h2{
+    border-left: solid 4px rgb(159, 106, 31);
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 80px;
+}
+/*ボタン*/
+button{
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding:10px 2px;
+    margin: 25px auto;
+    width: 100%;
+    border: 2.3px solid rgb(85, 60, 26);
+    color: rgb(85, 60, 26);
+    cursor:pointer;
+    transition:0.2s;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+.btn:hover{
+    background:rgb(85, 60, 26);
+    color: white;
+}
+
+
+
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+/*名前*/
+.top{
+    display: flex;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.top-icon{
+    display: block;
+    flex: 1;
+    border-radius: 90%;
+    width: 50%;
+    margin: auto;
+}
+.top-name{
+    flex: 1;
+}
+/*コンテンツ*/
+.content{
+    margin: 10%;
+}
+/*リンク集*/
+.karamu{
+    display: flex;
+}
+.karamu h3{
+    font-size: 28px;
+}
+
+.karamu1{
+    padding-top: 5px;
+    flex: 1;
+}
+.karamuR{
+    padding-top: 5px;
+    flex: 1;
+    padding-left: 15px;
+}
+.rogo{
+    width: 6%;
+    margin: auto;
+    padding-right: 50px;
+    
+}
+.center{
+    text-align: center;
+}
+
+/*レスポンシブ*/
+@media only screen and (max-width: 1000px) {
+    .top-icon{
+        width: 40%
+    }
+    .content{
+        margin: 3%;
+    }
+    .karamu h3{
+        font-size: 20px;
+    }
+    .karamu p{
+        font-size: 15px;
+    }
+    button{
+        font-size: 0.8em;
+    }
+
+}
