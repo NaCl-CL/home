@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
 body{
     color: rgb(85, 60, 26);
 }
@@ -88,11 +89,17 @@ footer{
 
 /*レスポンシブ*/
 @media only screen and (max-width: 1000px) {
+    .top{
+        display: block;
+    }
+    .top-name{
+        text-align: center;
+    }
     .top-icon{
-        width: 40%
+        width: 50%
     }
     .content{
-        margin: 3%;
+        margin: 5%;
     }
     .karamu h3{
         font-size: 20px;
@@ -103,5 +110,12 @@ footer{
     button{
         font-size: 0.8em;
     }
-
+    .karamu{
+        display: block;
+    }
+    .rogo{
+        width: 100%;
+        margin: auto;
+        
+    }
 }
